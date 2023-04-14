@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Context } from "../store/appContext";
 import { registerUser, loginUser } from "../service";
-
+// registerUser to register user
 export const Home = () => {
   const { store, actions } = useContext(Context);
 
